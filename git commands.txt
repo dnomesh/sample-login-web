@@ -1,0 +1,18 @@
+git config --global user.name "Your Name"
+git config --global user.email youremail@domain.com
+
+git init
+git add -A
+git commit -m "commit message"
+git remote add origin https://github.com/username/repo-name.git
+git pull origin master
+git push -u origin master
+
+
+npx create-react-app my-app --template typescript
+
+//npm install -g create-react-component-cli
+
+npx generate-react-cli component Box --withTest=false
+
+npm install react-bootstrap@next bootstrap@5.1.1
